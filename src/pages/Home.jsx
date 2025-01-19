@@ -3,6 +3,7 @@ import { Helmet } from 'react-helmet-async';
 import Hero from '../components/sections/Hero';
 import Skills from '../components/sections/Skills';
 import FeaturedProjects from '../components/sections/FeaturedProjects';
+import Credentials from '../components/sections/Credentials';
 
 function Home() {
   return (
@@ -11,7 +12,7 @@ function Home() {
         <title>Rohit Rana | Full Stack Developer & DevOps Engineer</title>
         <meta
           name="description"
-          content="Welcome to my portfolio. I am Rohit Rana, a Full Stack Developer and Cloud Computing Expert specializing in DevOps."
+          content="Welcome to my portfolio. I am Rohit Rana, Full Stack Developer & DevOps Engineer specializing in Java, Spring Boot, React, and Cloud Technologies. Experienced in AWS, Azure, and modern DevOps practices."
         />
 
         {/* Facebook tags */}
@@ -57,6 +58,7 @@ function Home() {
         <Hero />
         <Skills />
         <FeaturedProjects />
+        <Credentials />
       </motion.div>
     </>
   );

@@ -16,9 +16,9 @@ export const projects = [
     id: nanoid(),
     title: 'Automated Cloud-Native Blog Platform',
     description:
-      'Developed a cloud-native blog platform using Spring Boot, PostgreSQL and React.js, reducing page load times by 60% with AWS CloudFront and ElastiCache. Designed RESTful APIs and implemented CI/CD pipelines with GitHub Actions and AWS CodePipeline for automated testing and deployment. Integrated AWS CloudWatch for monitoring, Cognito for authentication, and Secrets Manager for secure credential management.',
+      'Developed a cloud-native blog platform using Spring Boot, PostgreSQL and React.js, reducing page load times by 60% with AWS CloudFront and ElastiCache. Designed RESTful APIs and implemented CI/CD pipelines with GitHub Actions and AWS CodePipeline for automated testing and deployment. Integrated AWS CloudWatch for monitoring, and Secrets Manager for secure credential management.',
     image: '/images/blog-project.png',
-    technologies: ['Spring Boot', 'PostgreSQL', 'React.js', 'Tailwind'],
+    technologies: ['Spring Boot', 'PostgreSQL', 'React.js'],
     githubUrl: 'https://github.com/rohitrana043/springboot-blog',
     liveUrl: 'https://www.example.com',
     featured: true,

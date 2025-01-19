@@ -10,6 +10,65 @@ import {
   FaHtml5,
   FaJs,
 } from 'react-icons/fa';
+import { FiBriefcase, FiBook, FiAward } from 'react-icons/fi';
+
+export const credentials = [
+  {
+    id: nanoid(),
+    type: 'education',
+    title: 'Post graduation: DevOps for Cloud Computing',
+    organization: 'Lambton College',
+    duration: '2022 - 2024',
+    description: 'Specialized in Distributed Systems and Cloud Computing.',
+    icon: FiBook,
+    year: 2024,
+  },
+  {
+    id: nanoid(),
+    type: 'experience',
+    title: 'Full Stack Developer',
+    organization: 'Tata Consultancy Services',
+    duration: 'Sep 2020 - Sep 2022',
+    description:
+      'Led development of microservices architecture, mentored junior developers, implemented CI/CD pipelines.',
+    icon: FiBriefcase,
+    year: 2022,
+  },
+
+  {
+    id: nanoid(),
+    type: 'certification',
+    title: 'Azure Developer Associate',
+    organization: 'Microsoft',
+    duration: 'Obtained 2022',
+    description:
+      'Professional level certification for AWS architecture and services.',
+    icon: FiAward,
+    year: 2022,
+  },
+  {
+    id: nanoid(),
+    type: 'experience',
+    title: 'Java EE Developer',
+    organization: 'Tata Consultancy Services',
+    duration: 'Aug 2019 - Sep 2020',
+    description:
+      'Led development of microservices architecture, mentored junior developers, implemented CI/CD pipelines.',
+    icon: FiBriefcase,
+    year: 2020,
+  },
+  {
+    id: nanoid(),
+    type: 'education',
+    title: 'Bachelor of Technology: Computer Science and Engineering',
+    organization: 'Deenbandhu Chhotu Ram University of Science & Technology',
+    duration: '2015 - 2019',
+    description:
+      'Gained a deep understanding of Computer System Architecture, Software Development Life Cycle, Computer Networks, Linux/Windows Server administration, and acquired skills in Data Structures and Algorithm (DSA) Design.',
+    year: 2019,
+    icon: FiBook,
+  },
+];
 
 export const skills = [
   {

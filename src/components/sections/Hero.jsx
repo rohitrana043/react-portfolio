@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { FiGithub, FiLinkedin, FiMail } from 'react-icons/fi';
+import { MdOutlineLocationOn } from 'react-icons/md';
 
 function Hero() {
   return (
@@ -10,8 +11,8 @@ function Hero() {
           animate={{ scale: 1 }}
           transition={{ duration: 0.5 }}
           src="/images/profile.jpg"
-          alt="Your Name"
-          className="w-64 h-64 rounded-full mx-auto mb-8 object-cover border-4 border-blue-500"
+          alt="Rohit Rana"
+          className="w-1/3 h-1/3 md:w-1/5 mdh-1/5 rounded-full mx-auto mb-8 object-cover border-4 border-blue-500"
         />
 
         <motion.h1
@@ -27,9 +28,17 @@ function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3 }}
-          className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-8"
+          className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-2"
         >
           Full Stack Developer & DevOps Engineer
+        </motion.p>
+        <motion.p
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.3 }}
+          className="text-l md:text-xl text-gray-600 dark:text-gray-300 mb-4"
+        >
+          <MdOutlineLocationOn className="inline" /> Toronto, ON, Canada
         </motion.p>
 
         <motion.div
@@ -65,7 +74,8 @@ function Hero() {
               className="text-2xl text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400"
               aria-label={label}
             >
-              <Icon />
+              <Icon className="inline" />{' '}
+              <span className="text-xl">{label}</span>
             </motion.a>
           ))}
         </motion.div>
