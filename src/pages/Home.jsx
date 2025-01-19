@@ -10,7 +10,7 @@ import ReactGA from 'react-ga';
 function Home() {
   ReactGA.send({
     hitType: 'pageview',
-    page: '/',
+    page: window.location.pathname,
     title: 'Rohit Rana | Full Stack Developer & DevOps Engineer',
   }); // non interaction event
   return (

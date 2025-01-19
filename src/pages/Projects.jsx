@@ -9,7 +9,7 @@ function Projects() {
   useEffect(() => {
     ReactGA.send({
       hitType: 'pageview',
-      page: '/projects',
+      page: window.location.pathname,
       title: 'Projects | Rohit Rana | Full Stack Developer & DevOps Engineer',
     }); // non interaction event
   }, []);

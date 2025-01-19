@@ -7,10 +7,11 @@ import ReactGA from 'react-ga';
 function Resume() {
   useEffect(() => {
     ReactGA.send({
-          hitType: 'pageview',
-          page: '/resume',
-          title: 'Resume | Rohit Rana | Full Stack Developer & DevOps Engineer',
-        }); // non interaction event
+      hitType: 'pageview',
+      page: window.location.pathname,
+      title: 'Resume | Rohit Rana',
+    }); // non interaction event
+  }, []);
   const resumeUrl =
     'https://drive.google.com/file/d/1HGaRjpAKdHHmku54ND4ssKN0BpKPdL1G/view?usp=sharing';
 

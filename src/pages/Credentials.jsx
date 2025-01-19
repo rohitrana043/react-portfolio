@@ -14,7 +14,7 @@ function Credentials() {
   useEffect(() => {
     ReactGA.send({
       hitType: 'pageview',
-      page: '/credentials',
+      page: window.location.pathname,
       title: 'Credentials | Rohit Rana',
     }); // non interaction event
   }, []);
