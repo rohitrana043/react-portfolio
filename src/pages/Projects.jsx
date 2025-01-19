@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet-async';
 import { projects } from '../data/projects';
 import ProjectCard from '../components/shared/ProjectCard';
 import { useEffect } from 'react';
-import ReactGA from 'react-ga';
+import ReactGA from 'react-ga4';
 
 function Projects() {
   useEffect(() => {

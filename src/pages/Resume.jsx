@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { Helmet } from 'react-helmet-async';
 import { FiDownload } from 'react-icons/fi';
 import { useEffect } from 'react';
-import ReactGA from 'react-ga';
+import ReactGA from 'react-ga4';
 
 function Resume() {
   useEffect(() => {

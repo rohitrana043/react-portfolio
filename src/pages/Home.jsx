@@ -5,7 +5,7 @@ import Skills from '../components/sections/Skills';
 import FeaturedProjects from '../components/sections/FeaturedProjects';
 import Credentials from '../components/sections/Credentials';
 import { useEffect } from 'react';
-import ReactGA from 'react-ga';
+import ReactGA from 'react-ga4';
 
 function Home() {
   ReactGA.send({
