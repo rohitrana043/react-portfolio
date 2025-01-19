@@ -29,7 +29,7 @@ function TimelineItem({ item, index }) {
           isLeft ? 'md:mr-auto' : 'md:ml-auto'
         }`}
       >
-        <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg">
+        <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-lg shadow-lg">
           {/* Icon */}
           <div
             className="absolute top-6 -mt-14 flex justify-center w-11/12 md:w-auto
@@ -69,7 +69,7 @@ function TimelineItem({ item, index }) {
 
 function Credentials() {
   return (
-    <section className="py-20 bg-gray-50 dark:bg-gray-900/50">
+    <section className="py-20 bg-white dark:bg-gray-900">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
