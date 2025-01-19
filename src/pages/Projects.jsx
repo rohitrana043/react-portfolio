@@ -7,7 +7,11 @@ import ReactGA from 'react-ga';
 
 function Projects() {
   useEffect(() => {
-    ReactGA.pageview(window.location.pathname); // non interaction event
+    ReactGA.send({
+      hitType: 'pageview',
+      page: '/projects',
+      title: 'Projects | Rohit Rana | Full Stack Developer & DevOps Engineer',
+    }); // non interaction event
   }, []);
   return (
     <>

@@ -8,11 +8,15 @@ import {
 } from '../data/credentials';
 import { FiAward, FiExternalLink } from 'react-icons/fi';
 import { useEffect } from 'react';
-import ReactGA from 'react-ga';
+import ReactGA from 'react-ga4';
 
 function Credentials() {
   useEffect(() => {
-    ReactGA.pageview(window.location.pathname); // non interaction event
+    ReactGA.send({
+      hitType: 'pageview',
+      page: '/credentials',
+      title: 'Credentials | Rohit Rana',
+    }); // non interaction event
   }, []);
   return (
     <>

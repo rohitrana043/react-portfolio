@@ -6,7 +6,7 @@ import Credentials from './pages/Credentials';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
 import ErrorPage from './pages/ErrorPage';
-import ReactGA from 'react-ga';
+import ReactGA from 'react-ga4';
 
 const TRACKING_ID = 'G-37VQ910M94';
 ReactGA.initialize(TRACKING_ID);

@@ -8,9 +8,11 @@ import { useEffect } from 'react';
 import ReactGA from 'react-ga';
 
 function Home() {
-  useEffect(() => {
-    ReactGA.pageview(window.location.pathname); // non interaction event
-  }, []);
+  ReactGA.send({
+    hitType: 'pageview',
+    page: '/',
+    title: 'Rohit Rana | Full Stack Developer & DevOps Engineer',
+  }); // non interaction event
   return (
     <>
       <Helmet>
