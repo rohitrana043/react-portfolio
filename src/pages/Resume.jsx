@@ -1,10 +1,24 @@
 import { motion } from 'framer-motion';
 import { Helmet } from 'react-helmet-async';
-import { FiDownload, FiExternalLink } from 'react-icons/fi';
+import { FiDownload } from 'react-icons/fi';
+import { useEffect } from 'react';
+import ReactGA from 'react-ga';
 
 function Resume() {
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname); // non interaction event
+  }, []);
   const resumeUrl =
     'https://drive.google.com/file/d/1HGaRjpAKdHHmku54ND4ssKN0BpKPdL1G/view?usp=sharing';
+
+  const handleClick = () => {
+    ReactGA.event({
+      category: 'Resume Page',
+      action: 'Download Resume',
+      label: 'Download Resume Clicked',
+      value: 1,
+    });
+  };
 
   return (
     <>
@@ -69,6 +83,7 @@ function Resume() {
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-blue-600 text-white rounded-lg
                        hover:bg-blue-700 transition-colors duration-200"
+              onClick={handleClick}
             >
               <FiDownload />
               Download Resume

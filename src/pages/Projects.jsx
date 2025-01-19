@@ -2,8 +2,13 @@ import { motion } from 'framer-motion';
 import { Helmet } from 'react-helmet-async';
 import { projects } from '../data/projects';
 import ProjectCard from '../components/shared/ProjectCard';
+import { useEffect } from 'react';
+import ReactGA from 'react-ga';
 
 function Projects() {
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname); // non interaction event
+  }, []);
   return (
     <>
       <Helmet>

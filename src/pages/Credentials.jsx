@@ -7,8 +7,13 @@ import {
   experiences,
 } from '../data/credentials';
 import { FiAward, FiExternalLink } from 'react-icons/fi';
+import { useEffect } from 'react';
+import ReactGA from 'react-ga';
 
 function Credentials() {
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname); // non interaction event
+  }, []);
   return (
     <>
       <Helmet>

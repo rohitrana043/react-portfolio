@@ -4,8 +4,13 @@ import Hero from '../components/sections/Hero';
 import Skills from '../components/sections/Skills';
 import FeaturedProjects from '../components/sections/FeaturedProjects';
 import Credentials from '../components/sections/Credentials';
+import { useEffect } from 'react';
+import ReactGA from 'react-ga';
 
 function Home() {
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname); // non interaction event
+  }, []);
   return (
     <>
       <Helmet>
