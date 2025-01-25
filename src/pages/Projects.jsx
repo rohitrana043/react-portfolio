@@ -20,6 +20,10 @@ function Projects() {
           Projects | Rohit Rana | Full Stack Developer & DevOps Engineer
         </title>
         <meta
+          name="title"
+          content="Projects | Rohit Rana | Full Stack Developer & DevOps Engineer"
+        />
+        <meta
           name="description"
           content="Explore my web development and cloud computing projects. From full stack applications to cloud-based solutions, view my work here."
         />
@@ -34,7 +38,7 @@ function Projects() {
           property="og:description"
           content="Check out the latest web development projects and cloud-based solutions I've worked on, including full stack applications and DevOps implementations."
         />
-        <meta property="og:url" content="https://www.rohitrana.dev" />
+        <meta property="og:url" content="https://www.rohitrana.dev/projects" />
         <meta
           property="og:image"
           content="https://www.rohitrana.dev/images/portfolio-projects.png"
@@ -47,6 +51,7 @@ function Projects() {
           name="twitter:title"
           content="Projects | Rohit Rana | Full Stack Developer & DevOps Engineer"
         />
+        <meta property="twitter:url" content="https://rohitrana.dev/projects" />
         <meta
           name="twitter:description"
           content="Explore my web development and cloud computing projects, including full stack applications and DevOps implementations."

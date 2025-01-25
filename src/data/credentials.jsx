@@ -28,7 +28,7 @@ export const credentials = [
     type: 'experience',
     title: 'Full Stack Developer',
     organization: 'Tata Consultancy Services',
-    duration: 'Sep 2020 - Sep 2022',
+    duration: 'Aug 2019 - Sep 2022',
     description:
       'Led development of microservices architecture, mentored junior developers, implemented CI/CD pipelines.',
     icon: FiBriefcase,
@@ -45,17 +45,6 @@ export const credentials = [
       'Professional level certification for AWS architecture and services.',
     icon: FiAward,
     year: 2022,
-  },
-  {
-    id: nanoid(),
-    type: 'experience',
-    title: 'Java EE Developer',
-    organization: 'Tata Consultancy Services',
-    duration: 'Aug 2019 - Sep 2020',
-    description:
-      'Led development of microservices architecture, mentored junior developers, implemented CI/CD pipelines.',
-    icon: FiBriefcase,
-    year: 2020,
   },
   {
     id: nanoid(),

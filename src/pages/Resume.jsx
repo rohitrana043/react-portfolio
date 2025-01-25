@@ -31,6 +31,10 @@ function Resume() {
           Resume | Rohit Rana | Full Stack Developer & DevOps Engineer
         </title>
         <meta
+          name="title"
+          content="Resume | Rohit Rana | Full Stack Developer & DevOps Engineer"
+        />
+        <meta
           name="description"
           content="View my professional resume. Learn about my experience, skills, and educational background as a Full Stack Developer and DevOps Expert."
         />
@@ -45,7 +49,7 @@ function Resume() {
           property="og:description"
           content="Explore my professional journey as a Full Stack Developer and DevOps Expert. Download my resume for more details."
         />
-        <meta property="og:url" content="https://www.rohitrana.dev" />
+        <meta property="og:url" content="https://www.rohitrana.dev/resume" />
         <meta
           property="og:image"
           content="https://www.rohitrana.dev/images/portfolio-resume.png"
@@ -58,6 +62,7 @@ function Resume() {
           name="twitter:title"
           content="Resume | Rohit Rana | Full Stack Developer & DevOps Engineer"
         />
+        <meta property="twitter:url" content="https://rohitrana.dev/resume" />
         <meta
           name="twitter:description"
           content="Explore my professional journey as a Full Stack Developer and DevOps Expert. Download my resume for more details."

@@ -22,6 +22,7 @@ function Credentials() {
     <>
       <Helmet>
         <title>Credentials | Rohit Rana</title>
+        <meta name="title" content="Credentials | Rohit Rana" />
         <meta
           name="description"
           content="View my professional credentials, including certifications, training, and expertise in full stack web development and cloud computing."
@@ -34,7 +35,10 @@ function Credentials() {
           property="og:description"
           content="Explore my credentials and certifications that showcase my expertise in full stack web development, cloud computing, and DevOps."
         />
-        <meta property="og:url" content="https://www.rohitrana.dev" />
+        <meta
+          property="og:url"
+          content="https://www.rohitrana.dev/credentials"
+        />
         <meta
           property="og:image"
           content="https://www.rohitrana.dev/images/portfolio-credentials.png"
@@ -44,6 +48,10 @@ function Credentials() {
         {/* Twitter tags */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Credentials | Rohit Rana" />
+        <meta
+          property="twitter:url"
+          content="https://rohitrana.dev/credentials"
+        />
         <meta
           name="twitter:description"
           content="Explore my credentials and certifications in full stack development and cloud computing."

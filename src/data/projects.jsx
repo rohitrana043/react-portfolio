@@ -9,7 +9,7 @@ export const projects = [
     image: '/images/e-comm-project.png',
     technologies: ['React', 'Node.js', 'MongoDB', 'Express'],
     githubUrl: 'https://github.com/rohitrana043/react-e-commerce',
-    liveUrl: 'https://www.example.com',
+    liveUrl: 'https://comfy-e-comm.netlify.app',
     featured: true,
   },
   {
@@ -22,5 +22,27 @@ export const projects = [
     githubUrl: 'https://github.com/rohitrana043/springboot-blog',
     liveUrl: 'https://www.example.com',
     featured: true,
+  },
+  {
+    id: nanoid(),
+    title: 'Backroads Tours & Travel',
+    description:
+      'The Backroads App is a React-based project designed to showcase destinations and services with a modern, user-friendly interface. It features a component-based architecture for modular and reusable UI design, centralized data handling for navigation, social icons, and services, and smooth scrolling for an enhanced user experience. With automated CI/CD pipelines and deployment on Netlify',
+    image: '/images/backroads-project.png',
+    technologies: ['HTML', 'CSS', 'React.js'],
+    githubUrl: 'https://github.com/rohitrana043/react-backroads-app',
+    liveUrl: 'https://backroads-web-react.netlify.app/',
+    featured: false,
+  },
+  {
+    id: nanoid(),
+    title: 'Unsplash Images',
+    description:
+      'React application that leverages the Unsplash Images API to dynamically display curated image collections. It showcases advanced React concepts such as Context API for seamless data sharing across deeply nested components and React Query for efficient API response caching to enhance performance and reduce redundant network requests. The app demonstrates responsive design principles, ensuring a smooth user experience.',
+    image: '/images/unsplash-project.png',
+    technologies: ['React.js', 'Context API', 'React Query'],
+    githubUrl: 'https://github.com/rohitrana043/react-unsplash-images',
+    liveUrl: 'https://react-unsplash-img.netlify.app/',
+    featured: false,
   },
 ];

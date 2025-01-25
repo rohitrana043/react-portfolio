@@ -18,6 +18,10 @@ function Home() {
       <Helmet>
         <title>Rohit Rana | Full Stack Developer & DevOps Engineer</title>
         <meta
+          name="title"
+          content="Rohit Rana | Full Stack Developer & DevOps Engineer"
+        />
+        <meta
           name="description"
           content="Welcome to my portfolio. I am Rohit Rana, Full Stack Developer & DevOps Engineer specializing in Java, Spring Boot, React, and Cloud Technologies. Experienced in AWS, Azure, and modern DevOps practices."
         />
@@ -45,6 +49,7 @@ function Home() {
           name="twitter:title"
           content="Rohit Rana | Full Stack Developer & DevOps Engineer"
         />
+        <meta property="twitter:url" content="https://rohitrana.dev/" />
         <meta
           name="twitter:description"
           content="Explore my portfolio showcasing my work as a Full Stack Developer and DevOps Expert."
