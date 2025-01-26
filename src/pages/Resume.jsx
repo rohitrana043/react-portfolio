@@ -38,6 +38,7 @@ function Resume() {
           name="description"
           content="View my professional resume. Learn about my experience, skills, and educational background as a Full Stack Developer and DevOps Expert."
         />
+        <meta name="author" content="Rohit Rana" />
 
         {/* Facebook tags */}
         <meta property="og:type" content="website" />

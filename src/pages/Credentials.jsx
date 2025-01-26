@@ -27,6 +27,7 @@ function Credentials() {
           name="description"
           content="View my professional credentials, including certifications, training, and expertise in full stack web development and cloud computing."
         />
+        <meta name="author" content="Rohit Rana" />
 
         {/* Facebook tags */}
         <meta property="og:type" content="website" />

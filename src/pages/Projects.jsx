@@ -27,6 +27,7 @@ function Projects() {
           name="description"
           content="Explore my web development and cloud computing projects. From full stack applications to cloud-based solutions, view my work here."
         />
+        <meta name="author" content="Rohit Rana" />
 
         {/* Facebook tags */}
         <meta property="og:type" content="website" />

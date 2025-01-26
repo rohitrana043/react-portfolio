@@ -25,6 +25,7 @@ function Home() {
           name="description"
           content="Welcome to my portfolio. I am Rohit Rana, Full Stack Developer & DevOps Engineer specializing in Java, Spring Boot, React, and Cloud Technologies. Experienced in AWS, Azure, and modern DevOps practices."
         />
+        <meta name="author" content="Rohit Rana" />
 
         {/* Facebook tags */}
         <meta property="og:type" content="website" />
