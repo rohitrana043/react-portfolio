@@ -5,11 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "local-build": "vite build",
-    "build": "CI= vite build",
+    "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "postbuild": "react-snap"
+    "preview": "vite preview"
   },
   "reactSnap": {
     "source": "dist",

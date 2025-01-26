@@ -9,6 +9,7 @@ export default defineConfig({
   },
   build: {
     target: 'es2015',
+    emptyOutDir: false, // Prevents deleting existing files
   },
   plugins: [
     react(),
