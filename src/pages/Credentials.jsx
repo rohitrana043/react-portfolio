@@ -22,6 +22,10 @@ function Credentials() {
     <>
       <Helmet>
         <title>Credentials | Rohit Rana</title>
+        <link
+          rel="canonical"
+          href={`https://www.rohitrana.dev${window.location.pathname}`}
+        />
         <meta name="title" content="Credentials | Rohit Rana" />
         <meta
           name="description"

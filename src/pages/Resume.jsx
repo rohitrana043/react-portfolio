@@ -30,6 +30,10 @@ function Resume() {
         <title>
           Resume | Rohit Rana | Full Stack Developer & DevOps Engineer
         </title>
+        <link
+          rel="canonical"
+          href={`https://www.rohitrana.dev${window.location.pathname}`}
+        />
         <meta
           name="title"
           content="Resume | Rohit Rana | Full Stack Developer & DevOps Engineer"

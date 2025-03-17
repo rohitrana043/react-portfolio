@@ -58,9 +58,20 @@ function TimelineItem({ item, index }) {
             {item.organization}
           </h4>
           <p className="text-gray-600 dark:text-gray-300 mb-2">
-            {item.duration}
+            {item?.duration}
           </p>
-          <p className="text-gray-700 dark:text-gray-400">{item.description}</p>
+
+          {item.type == 'experience' ? (
+            <ul className="list-inside list-disc text-gray-700 dark:text-gray-400">
+              {item.description.map((resp, index) => (
+                <li key={index}>{resp}</li>
+              ))}
+            </ul>
+          ) : (
+            <p className="text-gray-700 dark:text-gray-400">
+              {item?.description}
+            </p>
+          )}
         </div>
       </motion.div>
     </div>

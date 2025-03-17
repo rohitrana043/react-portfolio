@@ -17,6 +17,10 @@ function Home() {
     <>
       <Helmet>
         <title>Rohit Rana | Full Stack Developer & DevOps Engineer</title>
+        <link
+          rel="canonical"
+          href={`https://www.rohitrana.dev${window.location.pathname}`}
+        />
         <meta
           name="title"
           content="Rohit Rana | Full Stack Developer & DevOps Engineer"

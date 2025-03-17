@@ -8,6 +8,10 @@ function Contact() {
     <>
       <Helmet>
         <title>Contact | Rohit Rana</title>
+        <link
+          rel="canonical"
+          href={`https://www.rohitrana.dev${window.location.pathname}`}
+        />
         <meta
           name="description"
           content="Get in touch with me for web development or DevOps projects. Reach out to discuss potential collaborations or inquiries."

@@ -87,11 +87,13 @@ function Hero() {
           className="max-w-2xl mx-auto"
         >
           <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-            I'm a passionate software developer with expertise in designing and
-            building scalable, cloud-native applications. With hands-on
-            experience in microservices architecture, DevOps practices, and
-            full-stack development, I specialize in creating high-performance
-            solutions that deliver impact.
+            I'm passionate about building software that makes a difference. I
+            have experience designing and building scalable, cloud-native
+            applications using microservices architecture, DevOps practices, and
+            full-stack development. Throughout my career, I've had the
+            opportunity to work on some really interesting projects, like
+            migrating an e-commerce platform to the Salesforce B2C Commerce
+            platform and developing a cloud-native blog platform.
           </p>
         </motion.div>
       </div>

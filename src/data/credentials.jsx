@@ -19,7 +19,8 @@ export const credentials = [
     title: 'Post graduation: DevOps for Cloud Computing',
     organization: 'Lambton College',
     duration: '2022 - 2024',
-    description: 'Specialized in Distributed Systems and Cloud Computing.',
+    description:
+      'Gained in-depth knowledge of distributed systems and cloud computing, focusing on technologies like containerization, continuous integration/continuous deployment (CI/CD), cloud-based solutions, data security and risk management.',
     icon: FiBook,
     year: 2024,
   },
@@ -29,8 +30,14 @@ export const credentials = [
     title: 'Full Stack Developer',
     organization: 'Tata Consultancy Services',
     duration: 'Aug 2019 - Sep 2022',
-    description:
-      'Led development of microservices architecture, mentored junior developers, implemented CI/CD pipelines.',
+    description: [
+      'Led the strategic migration of an e-commerce platform from a legacy Java EE architecture (JSP/Servlet) to the Salesforce B2C Commerce Cloud (SFRA), utilizing Node.js and Express.js. This significant transition resulted in a 50% improvement in overall system performance, enhanced scalability, and increased system robustness.',
+      'Developed and maintained critical e-commerce functionalities, including shopping cart functionality, checkout process optimization, and inventory management systems within the Salesforce B2C Commerce Cloud environment.',
+      'Spearheaded website improvements focusing on UI/UX enhancements, product catalog optimization, and security enhancements, leading to a 40% increase in user satisfaction and revenue growth.',
+      'Collaborated with cross-functional teams, including solution architects and clients, to develop and implement Spring Boot microservices for seamless Salesforce integration with internal systems.',
+      'Leveraged RESTful APIs and developed data integration pipelines using Microsoft SSIS ETL tool to facilitate data exchange between systems.',
+    ],
+
     icon: FiBriefcase,
     year: 2022,
   },
@@ -40,11 +47,16 @@ export const credentials = [
     type: 'certification',
     title: 'Azure Developer Associate',
     organization: 'Microsoft',
-    duration: 'Obtained 2022',
-    description:
-      'Professional level certification for AWS architecture and services.',
     icon: FiAward,
     year: 2022,
+  },
+  {
+    id: nanoid(),
+    type: 'certification',
+    title: 'Azure Fundamentals',
+    organization: 'Microsoft',
+    icon: FiAward,
+    year: 2021,
   },
   {
     id: nanoid(),
@@ -53,7 +65,7 @@ export const credentials = [
     organization: 'Deenbandhu Chhotu Ram University of Science & Technology',
     duration: '2015 - 2019',
     description:
-      'Gained a deep understanding of Computer System Architecture, Software Development Life Cycle, Computer Networks, Linux/Windows Server administration, and acquired skills in Data Structures and Algorithm (DSA) Design.',
+      'Developed a strong foundation in Computer Science fundamentals, including Computer System Architecture, Software Development Life Cycle, Computer Networks, Data Structures and Algorithm (DSA) design, essential for building efficient and robust software solutions.',
     year: 2019,
     icon: FiBook,
   },

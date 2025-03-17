@@ -12,7 +12,7 @@ function ProjectCard({
   return (
     <motion.div
       whileHover={{ y: -5 }}
-      className="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden"
+      className="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col h-full"
     >
       <div className="relative overflow-hidden aspect-video">
         <motion.img
@@ -20,18 +20,20 @@ function ProjectCard({
           transition={{ duration: 0.2 }}
           src={image}
           alt={title}
-          className="object-cover"
+          className="object-cover w-full"
         />
       </div>
 
-      <div className="p-6">
+      <div className="p-6 flex flex-col flex-grow">
         <h3 className="text-xl font-bold mb-2 text-gray-900 dark:text-white">
           {title}
         </h3>
 
-        <p className="text-gray-600 dark:text-gray-300 mb-4">{description}</p>
+        <p className="text-gray-600 dark:text-gray-300 mb-4 flex-grow overflow-y-auto">
+          {description}
+        </p>
 
-        <div className="flex flex-wrap gap-2 mb-4">
+        <div className="flex flex-wrap gap-2 mb-4 mt-auto">
           {technologies.map((tech) => (
             <span
               key={tech}
@@ -43,7 +45,7 @@ function ProjectCard({
           ))}
         </div>
 
-        <div className="flex gap-4">
+        <div className="flex gap-4 mt-auto">
           <motion.a
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
