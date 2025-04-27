@@ -30,6 +30,45 @@ export const projects = [
     featured: true,
   },
   {
+    id: 'toronto-gta-investment-map',
+    title: 'Toronto GTA Investment Map',
+    description:
+      'I developed a responsive real estate investment analysis platform focused on the Greater Toronto Area. This application helps property investors identify and evaluate investment opportunities across different locations using interactive maps with heat mapping visualization. Key features include location-based investment scoring, financial analysis tools for calculating ROI and cash flow projections, portfolio tracking, and comprehensive property details with mortgage calculators. The app includes an analytics dashboard that visualizes investment trends and performance metrics, and generates exportable reports. The application uses React with Leaflet for mapping, Recharts for data visualization, and local storage for data persistence.',
+    image: '/images/toronto-investment-map.png',
+    technologies: [
+      'React',
+      'Leaflet.js',
+      'React Router',
+      'Recharts',
+      'Responsive Design',
+      'Local Storage API',
+      'PapaParse',
+      'jsPDF',
+    ],
+    githubUrl:
+      'https://github.com/rohitrana043/real-estate-investment-visualizer',
+    liveUrl: 'https://real-estate-visualizer.rohitrana.dev/',
+    featured: true,
+  },
+  {
+    id: 'job-tracker-app',
+    title: 'Job Application Tracker',
+    description:
+      'I developed a comprehensive job application management system using React, Tailwind CSS, and modern web technologies. This application helps job seekers track their applications across multiple companies, monitor application statuses, and analyze their job search through an interactive dashboard. Features include company management, application status tracking, follow-up reminders, interview notes, and analytics visualizations. I implemented robust error handling, local storage for data persistence, and CSV import/export functionality for data backup.',
+    image: '/images/job-tracker.png',
+    technologies: [
+      'React',
+      'Tailwind CSS',
+      'React Router',
+      'Recharts',
+      'Local Storage API',
+      'PapaParse',
+    ],
+    githubUrl: 'https://github.com/rohitrana043/job-tracker',
+    liveUrl: 'https://job-tracker.rohitrana.dev',
+    featured: true,
+  },
+  {
     id: 'nanoid()',
     title: 'Project Tree Generator',
     description:
